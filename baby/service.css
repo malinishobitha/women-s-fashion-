@@ -1,0 +1,112 @@
+.service h2{
+    color: rgb(74, 165, 201);
+     font-size: 30px;
+}
+.serparent{
+    height: 200px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.serchild{
+    height: 200px;
+    width: 400px;
+    border: 0px solid black;
+    display: flex;
+    
+}
+.temp{
+    height: 70px;
+    width: 150px;
+    border-radius: 120px;
+    background-color:orangered;
+    border: 0px solid black;
+}
+.serchild i{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+.temporary h2{
+    color: orangered;
+}
+.serchild p{
+    color: grey;
+}
+.served{
+    height: 70px;
+    width: 150px;
+    border-radius: 120px;
+    background-color:skyblue;
+    border: 0px solid black;
+}
+.area h2{
+    color:  skyblue;
+}
+.nanny{
+    height: 70px;
+    width: 150px;
+    border-radius: 120px;
+    background-color: yellowgreen;
+    border: 0px solid black;
+}
+.placement h2{
+    color:  yellowgreen;
+}
+.mom{
+    height: 70px;
+    width: 150px;
+    border-radius: 120px;
+    background-color:rgb(31, 104, 133);
+    border: 0px solid black;
+}
+.reference h2{
+    color: rgb(20, 107, 141);
+}
+.ref{
+    height: 70px;
+    width: 150px;
+    border-radius: 120px;
+    background-color:rgb(20, 107, 141);
+    border: 0px solid black;
+}
+
+.clientsay{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.client{
+    width:350px;
+    border: 0px solid black;
+    background-color: rgb(208, 235, 246);
+    display: flex;
+    border-radius: 10px;
+    
+}
+.icon{
+    font-size: 30px;
+    color: rgb(166, 249, 89);
+    border: 0px solid black;
+    margin-left: 20px;
+    padding: 10px;
+}
+.para{
+    color: grey;
+}
+.img{
+    display: flex;
+    padding: 10px;
+}
+.worker img{
+    margin-right: 30px;
+    border-radius: 50px;
+}
+.name p{
+    color: grey;
+}
+.name{
+    border: 0px solid black;
+    margin-right: 70px;
+}

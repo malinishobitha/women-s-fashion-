@@ -1,0 +1,84 @@
+.parentbaby{
+    border:0px solid black;
+}
+.workdetail{
+    display:flex;
+    border: 0px solid black;
+    justify-content: space-evenly;
+}
+.search{
+    height: 50px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.search input{
+    width: 400px;
+    height: 50px;
+   
+}
+.search select{
+    width: 450;
+    height: 50px;
+}
+.search button{
+    width: 200px;
+    background-color: orange;
+    border: 1px solid orangered;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.search button:hover{
+    background-color: orangered;
+}
+.workname{
+    display: flex;
+    width: 400px;
+    border: 0px solid black;
+    padding: 10px;
+    
+}
+
+.image{
+     width: 60px;
+     border: 0px solid black;
+}
+.image img{
+    border-radius: 50px;
+}
+.name{
+    
+    margin-left: 30px;
+}
+.name h2{
+    color: rgb(61, 125, 150);
+}
+.name p{
+    color: grey;
+}
+.location{
+    width: 400px;
+   font-size: 20px;
+   border: 0px solid black;
+   text-align: center;
+   padding: 20px;
+}
+.location i{
+    color: orangered;
+}
+.location a{
+    text-decoration: none;
+    color: grey;
+}
+.list {
+    background-color: rgb(226, 219, 219);
+    text-align: center;
+    border: 1px solid rgb(223, 223, 223);
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}

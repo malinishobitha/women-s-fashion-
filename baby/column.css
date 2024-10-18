@@ -1,0 +1,43 @@
+.column h2{
+    color: rgb(54, 133, 165);
+    font-size: 40px;
+}
+.twelve h2{
+    color: rgb(54, 133, 165);
+}
+.twelve p{
+    color: grey;
+}
+.six h2{
+    color: rgb(54, 133, 165);
+    font-size: 30px;
+}
+.sixcolumn {
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.column{
+    width: 500px;
+}
+.column p{
+    color: grey;
+}
+.fourcolumn {
+   width: 380px;
+}
+.fourcolumn p{
+    color: grey;
+}
+.fourcolumn h2{
+    color: rgb(54, 133, 165);
+}
+.thirdcolumn {
+    width: 280px;
+ }
+ .thirdcolumn p{
+     color: grey;
+ }
+ .thirdcolumn h2{
+     color: rgb(54, 133, 165);
+ }

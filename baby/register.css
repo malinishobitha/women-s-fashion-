@@ -1,0 +1,29 @@
+.register h2{
+    color: rgb(19, 137, 183);
+    font-size: 40px;
+}
+.login{
+    display:flex;
+    border: 0px solid black;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.loginone{
+    border: 1px solid rgb(205, 205, 205);
+    font-size: 30px;
+    width: 500px;
+    padding-left: 20px;
+}
+.login button{
+    height: 50px;
+    border: 1px  solid orangered;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 70px;
+}
+
+.loginone h3{
+    color: rgb(22, 101, 133);
+}

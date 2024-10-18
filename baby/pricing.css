@@ -1,0 +1,49 @@
+.pricing{
+    color: rgb(34, 154, 201);
+    font-size: 40px;
+}
+.childpricing table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+ .childpricing th{ 
+    border: 1px solid grey;
+    font-size: 20px;
+
+}
+.childpricing th{
+    font-size: 30px;
+    color: white;
+    background-color: orange;
+}
+.childpricing p{
+    color: grey;
+    font-size: 10px;
+} 
+td,th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    line-height: 40px;
+
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+  .childpricing button{
+    background-color: orange;
+   
+    border-radius: 10px;
+    border: 1px solid orange;
+    font-size: 20px;
+  }
+  .fourcolumn{
+    color:rgb(34, 154, 201);
+    font-size: 20px;
+  }
+  .childpricing button a{
+    text-decoration: none;
+    color: white;
+  }

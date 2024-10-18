@@ -1,0 +1,30 @@
+.contact{
+    border: 0px  solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactlogo{
+    background-color: rgb(218, 228, 233);
+    width: 400px;
+    border: 0px solid black;
+    margin: 20px;
+    height: 350px;
+    border-radius: 10px;
+    
+}
+.contactlogo h2{
+    color: rgb(68, 140, 169);
+    font-size: 30px;
+
+}
+.contactform{
+    margin: 20px;
+}
+.contactform button{
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border: 0px solid orangered;
+    border-radius: 10px;
+    height: 40px;
+}

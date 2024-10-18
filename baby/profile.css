@@ -1,0 +1,20 @@
+.profile{
+    color: rgb(52, 124, 152);
+    font-size: 30px;
+}
+.profileparent{
+    display: flex;
+    border: 1px solid black;
+}
+.profileimage{
+    border: 1px solid black;
+}
+
+.navmenu{
+    list-style-type: none;
+    display: flex;
+    width:200px; 
+    justify-content: space-evenly ;
+    border: 0px solid black;
+    font-size: 25px;
+}

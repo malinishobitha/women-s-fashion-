@@ -1,0 +1,35 @@
+.form{
+    justify-content: center;
+    text-align: center;
+}
+.form p{
+    font-size: 15px;
+    color: grey;
+}
+.form button{
+    font-size: 25px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 20px;
+}
+.form h2{
+    color:rgb(37, 36, 36);
+    font-size: 20px;
+}
+.form input{
+    width: 500px;
+    height: 20px;
+    text-align: center;
+}
+.title{
+    width: 700px;
+    border: 0px solid black;
+    display: flex;
+    margin-left: 350px;
+    justify-content: space-evenly;
+}
+.post h2{
+    color: rgb(54, 111, 134);
+    font-size: 50px;
+} 

@@ -1,0 +1,165 @@
+.abcontent {
+    height: 380px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutus {
+    color: rgb(50, 191, 247);
+    font-size: 30px;
+}
+
+.det h2 {
+    color: rgb(50, 191, 247);
+    font-size: 30px;
+
+}
+
+.det {
+    width: 500px;
+    color: grey;
+}
+
+.img {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.det button {
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid orangered;
+}
+
+.det button a {
+    text-decoration: none;
+    color: white;
+}
+
+.parent h2 {
+    font-size: 30px;
+    color: rgb(50, 191, 247);
+}
+
+.parents {
+    height: 200px;
+    border:0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.parents p{
+    color: grey;
+}
+
+.findbabysitter {
+    width: 400px;
+    border: 0px solid black;
+    display: flex;
+}
+
+.find {
+    width: 150px;
+    height: 80px;
+    border:0px solid black;
+    border-radius: 100px;
+    background-color: orangered;
+}
+.find i{
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+}
+.orange h2{
+    color: orangered;
+    
+}
+
+.contactbabysitter {
+    width: 400px;
+    border: 0px solid black;
+    display: flex;
+}
+
+.cont{
+    width: 150px;
+    height: 80px;
+    border: 0px solid black;
+    border-radius: 100px;
+    background-color: rgb(65, 162, 218);
+}
+.cont i{
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+}
+.blue h2{
+    color: rgb(65, 191, 241);
+
+}
+
+.hireconfidence {
+    width: 400px;
+    border: 0px solid black;
+    display: flex;
+}
+.hire{
+    width: 150px;
+    height: 80px;
+    border: 0px solid black;
+    border-radius: 100px;
+    background-color: rgb(37, 203, 40);
+  
+}
+.hire i{
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+}
+.green h2{
+    color: rgb(102, 177, 4);
+}
+.capability{
+    text-align: center;
+    margin: 70px;
+}
+.capability h2{
+    color: rgb(39, 181, 238);
+}
+.percentage{
+    width: 700px;
+    background-color: rgb(246, 244, 244);
+}
+.ui{
+    width: 600px;
+    background-color: orange;
+    color: white;
+}
+.branding{
+    width: 500px;
+    background-color: yellowgreen;
+    color: white;
+}
+.javascript{
+    width: 400px;
+    background-color: rgb(101, 174, 210);
+    color: white;
+}
+.html{
+    width: 650px;
+    background-color: orangered;
+    color: white;
+}
+.word{
+    width: 500px;
+    background-color: rgb(163, 31, 31);
+    color: white;
+}
+.php{
+    width: 400px;
+    background-color: rgb(140, 204, 12);
+    color: white;
+}

@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Itim&display=swap');
+.topnav{
+    border: 0px solid black;
+    display: flex;
+    background-color: rgb(195, 233, 247);
+    font-family: "EB Garamond", serif;
+}
+.nav{
+    border: 0px solid black;
+    margin-left: 60%;
+   width: 250px;
+    
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li i{
+    color: red;
+}
+.icon{
+    margin-left: 120px;
+    border: 0px solid black;
+    font-size: 25px;
+}
+
+.icon i :hover{
+    color: red;
+}
+.navbar {
+    background-color: rgb(123, 218, 252);
+    border-radius: 10px;
+    border: 0px solid black;
+    height: 80px;
+    display: flex;
+    font-size: 20px;
+    
+}
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    width:800px; 
+    justify-content: space-between;
+    border: 0px solid black;
+    font-size: 25px;
+   
+}
+.nav-menu li{
+    position: relative;
+}
+.nav-menu a{
+    text-decoration: none;
+    display: block;
+    color: rgb(10, 92, 124);
+
+}
+.nav-menu a i{
+    font-size: 10px;
+    }
+ 
+.nav-menu a:hover{
+    background-color: rgb(8, 122, 245);
+    color: white;
+    border-radius:10px;
+    
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    z-index:1;
+    list-style-type: none;
+    
+}
+.dropdown-menu li{
+    width: 200px;
+    margin-left: -50px;
+}
+.dropdown-menu a{
+    padding: 10px;
+    color:rgb(16, 129, 228);
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(223, 244, 252)
+}
+.dropdown-menu a:hover{
+    background-color: rgb(70, 196, 246);
+    color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown:hover li{
+    background-color: rgb(155, 194, 231);
+}
+.content{
+    padding: 20px 100px;
+    position: relative;
+}
+.learn{
+    z-index: 0;
+    position: absolute;
+    height: 100px;
+    width: 420px;
+    border:1px solid white;
+    bottom: 55px;
+    background-color: white;
+    margin-left: 10px;
+    padding-left: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: "Itim", cursive;
+}
+.learn a{
+    font-size: 15px;
+    color: rgb(241, 172, 45);
+    text-decoration: none;
+}
+.box{
+    width: 100%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.innerbox1{
+    width: 350px;
+    height: 200px;
+    border: 0px solid black;
+    background-color:orangered ;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    text-indent: 10px;
+  
+}
+.innerbox1 h3{
+    font-weight: 20px;
+}
+.innerbox2{
+    width: 380px;
+    height: 200px;
+    border: 0px solid black;
+    background-color: rgb(97, 200, 241) ;
+    border-radius: 10px;
+    display: flex;
+    text-indent: 10px;
+    padding: 20px;
+  
+}
+.innerbox3{
+    width: 380px;
+    height: 200px;
+    border: 0px solid black;
+    background-color:rgb(152, 237, 33) ;
+  border-radius: 10px;
+  display: flex;
+  text-indent: 10px;
+  padding: 20px;
+}
+.one{
+    height: 200px;
+    width: 100px;
+    border: 0px solid black;
+    color: white;
+}
+.one h1{
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+    border: 0px solid black;
+    padding: 10px;
+    background-color: rgba(228, 16, 16, 0.645);
+}
+.two{
+    border: 0px solid black;
+    color: white;
+    height: 200px;
+
+}
+.two h2{
+    font-size: 35px;
+    text-indent: 29px;
+}
+.basit h1{
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+    border: 0px solid black;
+    padding: 10px;
+    background-color: rgba(4, 151, 171, 0.645);
+    color: white;
+}
+.confidence h1{
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+    border: 0px solid black;
+    padding: 10px;
+    background-color: rgba(10, 244, 73, 0.645);
+    color: white;
+}
+.welcome{
+    border: 0px solid black;
+    text-align: center;
+}
+.welcome h1{
+    color: rgb(34, 202, 202);
+    font-size: 50px;
+    
+}
+.welcome p{
+    font-size: 20px;
+}
+.welcome button{
+    background-color: orangered;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid orangered;
+    color: white;
+}
+.welcome button:hover{
+    border: orangered;
+    background-color: rgb(230, 61, 0);
+}
+.latest p{
+    color: rgb(7, 186, 186);
+    font-size: 40px;
+}
+.persdet{
+    height: 500px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    transition: width 1s;
+    transition-duration: 1s;
+}
+.persdet:hover{
+    width: 1000px;
+} 
+.person{
+   width: 255px;
+   border: 0px solid black;
+   background-color: rgb(219, 239, 247);
+   padding: 6px;
+   border-radius: 5px;
+   
+
+}
+.person p{
+    color: rgb(130, 129, 129);
+}
+.person h2:hover{
+    color: orange;
+}
+.person h2 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(26, 26, 26);
+}
+.detail{
+    border: 0px solid black;
+    height:100px;
+    background-color: white;
+}
+.detail i{
+    display: block;
+    color:rgb(161, 156, 156);
+    line-height: 30px;
+}
+.detail i a{
+    text-decoration: none;
+}
+.detail i a:hover{
+    color: orangered;
+}
+.readmore{
+    border:0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.ourser{
+    height: 400px;
+    width: 350px;
+    border: 0px solid black;
+    
+}
+.ourser h2{
+    color: rgb(31, 175, 175);
+}
+.ourser h3{
+    color: black;
+}
+.ourser p{
+    color: grey;
+}
+.ourser ul{
+    color: grey;
+    
+}
+.ourser button{
+    border: 0px solid orangered;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px ;
+    background-color: orangered;
+    font-size: 20px;
+    
+}
+.ourser button a{
+    text-decoration: none;
+    color: white;
+}
+    
+.baby{
+     height: 100px;
+     display: flex;
+     
+}
+.baby img{
+    height: 80px;
+    border-radius: 20px;
+}
+.date{
+    margin-top: -10px;
+}
+.date a{
+    color: orange;
+    text-decoration: none;
+}
+.date a:hover{
+    text-decoration:underline;
+}
+.date h4{
+    color: grey;
+}
+.clients{
+    display: flex;
+    height: 170px;
+    justify-content: space-evenly;
+}
+.clientdet{
+    width:260px;
+    border: 0px solid black;
+    padding: 30px;
+    
+}
+.our h1{
+    color: rgb(54, 177, 177);
+}
+.big{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+}
+.cloud{
+    width:280px;
+    height: 400px;
+    border:0px solid black;
+
+}
+.cloud h2{
+    color:  rgb(54, 177, 177);
+}
+.cloud p{
+    color: grey;
+    font-size: 18px;
+}
+.cloud button{
+    background-color: orangered;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.cloud a{
+    text-decoration: none;
+    color: white;
+}
+.cloud button a:hover{
+    color: black;
+}
+.cloudlink{
+    width:280px;
+    height: 400px;
+    border:0px solid black;
+    color: grey;
+}
+.cloudlink a{
+    color: orangered;
+    text-decoration: none;
+}
+.cloudlink a:hover{
+    text-decoration: underline;
+}
+.cloudlink h2{
+    color:  rgb(54, 177, 177);
+}
+
+.message{
+    width: 150px;
+    height: 100px;
+    border: 0px solid black;
+    background-color:rgb(151, 246, 7);
+}
+.message p{
+    color: rgb(223, 242, 194);
+}
+.messa{
+    position: relative;
+}
+.message {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.messa:hover .message{
+    display: block;
+}
+.our{
+    margin-right: 950px;
+}
